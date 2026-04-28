@@ -1,6 +1,6 @@
 # Panorama_image_stitcher
 OpenCV를 활용하여 이미지를 이어붙이는 프로그램입니다.
-이 프로그램에서는 3장의 사진을 BRISK, RANSAC 호모그래피로 합치고 Distance-transform 알파 블렌딩으로 경계를 부드럽게 이어붙입니다.
+이 프로그램에서는 3장의 사진을 BRISK로 특징점을 찾고, RANSAC 호모그래피로 합친뒤 Distance-transform 알파 블렌딩으로 경계를 부드럽게 이어붙입니다.
 
 ## 요구사항
 - Python 
