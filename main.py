@@ -88,7 +88,7 @@ step1 = stitch_two(img1, img2)
 step2 = stitch_two(step1, img3)
 
 cv.imwrite('Result.jpg', step2)
-print("Result has been saved as result.jpeg")
+print("Result has been saved as Result.jpg")
 cv.imshow('Step1 Result', step1)
 cv.imshow('Step2 Result', step2)
 cv.waitKey(0)
