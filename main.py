@@ -2,9 +2,9 @@ import numpy as np
 import cv2 as cv
 
 #이미지 로드
-img1 = cv.imread('data/1.jpeg')
-img2 = cv.imread('data/2.jpeg')
-img3 = cv.imread('data/3.jpeg')
+img1 = cv.imread('data/1.JPEG')
+img2 = cv.imread('data/2.JPEG')
+img3 = cv.imread('data/3.JPEG')
 
 assert (img1 is not None) and (img2 is not None) and (img3 is not None), 'Cannot read images'
 
